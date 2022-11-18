@@ -1,0 +1,182 @@
+
+nav{
+    text-align:right;
+    border: 100px;
+    word-spacing: 9px;
+    /* background-color: rgb(0,0,0); */
+    padding: 15px 20px;
+    box-shadow: 0 4px 8px 0 rgba(212, 17, 17, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.first{
+    box-sizing: border-box;
+    width: 100px;
+    border-radius: 20px;
+    height: 100px;
+    padding: 10px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgb(26, 26, 215);
+}.first:link {
+    color:blue;
+  }
+  
+  /* visited link */
+  .first:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  .first:hover {
+    color: orangered;
+  }
+  
+  /* selected link */
+  .first:active {
+    color: yellow;
+  }
+
+.container {
+    position: relative;
+  }
+  
+  .center {
+   
+    text-transform: uppercase;
+    text-align: center;
+    border: 5px;
+     margin: 20px;
+    font-style: italic;
+    color: rgb(8, 8, 86);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+  }
+  /* p{
+    text-align: left;
+    border: 5px;
+     margin: 20px;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(1, 1, 13); */
+
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+  } */
+  
+  img { 
+    width: 100%;
+    height: auto;
+    /* opacity: 0.3; */
+    /* background-color: rgb(254, 27, 27); */
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  h3{
+    text-align: center;
+
+  }
+  video{
+    
+    background-color: yellow; 
+   list-style-type: none;
+   text-align: center;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    border-radius: 20px;
+    height: 50%;
+    padding: 40px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgb(26, 26, 215);
+    box-shadow: 0 4px 8px 0 rgba(212, 17, 17, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+/* h1{ 
+    text-decoration-thickness: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border: 5px;
+    shape-margin: 2px;
+    font-style: italic;
+    color: rgb(8, 8, 86);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}*/
+h1{
+  
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    text-transform:capitalize;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 200px
+    ;
+    padding: 20px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  .column1{
+    float:inline-start;
+    width: 50%;
+    padding: 10px;
+    height: auto;
+  }
+  .three{
+    width: 50%;
+    height: 100%;
+    /* opacity: 0.3; */
+    /* background-color: rgb(254, 27, 27); */
+    padding: 50px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .container {
+    position: relative;
+  }
+  .two.first:visited{
+    color: rgb(49, 49, 155);
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* .two:visited { */
+    /* color: green; */
+  /* } */
+  /* footer img { */
+    /* width: 125px; */
+    /* } */
+    
+    footer p {
+    color: purple;
+    font-size: 12px;
+    }
+    
+    footer {
+      border: 20px;
+      text-align: center;
+      text-decoration: black;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: large;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+    }
+  /* mouse over link */
+  .two:hover {
+    color: orangered;
+  }
+  .three{
+    height: auto;
+    width:100px
+  }
